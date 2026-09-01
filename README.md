@@ -10,6 +10,7 @@ I work mostly in C and Python. My coursework has been operating systems and comp
 
 | Repository | What it is | Stack |
 | --- | --- | --- |
+| [C-V2X DRL Resource Management](https://github.com/MinjaeChoi119/C-V2X-DRL-Resource-Management) | Undergraduate thesis. A DQN agent learns C-V2X congestion control, implemented from scratch without an RL toolbox, on top of an open-source sidelink simulator. | MATLAB |
 | [Xbot](https://github.com/MinjaeChoi119/Xbot) | Aggregates one song's rank across five Korean music charts and posts the movement to X. Ran on AWS in production for several months. | Python, BeautifulSoup, AWS |
 | [OneClick](https://github.com/MinjaeChoi119/Music-Streaming-Playlist-Generator) | Android app that turns a custom song queue into a single deep link, built on a reverse-engineered streaming API. | Python, Kivy, python-for-android |
 | [In-Game Brightness Study](https://github.com/MinjaeChoi119/In-Game-Brightness-Control-User-Experience-Study) | Controlled study of four in-game brightness controls, with the web instrument and the analysis. n = 28. | HTML, Google Apps Script |
@@ -25,7 +26,7 @@ Course projects stay private under academic policy. Happy to walk through any of
 
 ### Tools
 
-`C` `Python` `C++` `MATLAB` `Kotlin` · `Linux` `Git` `AWS` · `NumPy` `SciPy` `pandas` `Keras` `TensorFlow` `scikit-learn` `Kivy`
+`C` `Python` `C++` `MATLAB` `Kotlin` · `Linux` `Git` `AWS` · `NumPy` `SciPy` `pandas` `Matplotlib` `Kivy` `BeautifulSoup`
 
 ### Contact
 
