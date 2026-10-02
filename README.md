@@ -2,7 +2,7 @@
 
 M.S. Computer Engineering at Northwestern, Sep 2026 – Dec 2027. Before that, a double-major B.S. at Hanyang University in Automotive Engineering and Convergence Technology for Advanced Vehicles.
 
-C and Python are where I spend most of my time. My fourth year was computer science coursework — operating systems, computer architecture, data structures, algorithms — and what came out of it was schedulers, threads, system calls, an assembler and an ISA simulator. Outside class I build small things end to end and then have to run them: a bot a fan account paid me to run, an Android app I handed to strangers through a blog post.
+My undergraduate thesis trained a DQN for C-V2X congestion control. The trained policy only looked at vehicle density, so I turned it into a plain density-based rule that beats the ETSI standard. Outside class I build small things end to end and then have to run them. One is a bot a fan account paid me to run. Another is an Android app I handed to strangers through a blog post.
 
 **Looking for a Summer 2027 internship in the US.** F-1 student, work-authorized through pre-completion OPT, so no employer sponsorship is required.
 
@@ -21,12 +21,12 @@ C and Python are where I spend most of my time. My fourth year was computer scie
 
 Course projects stay private under academic policy. Happy to walk through either one; the xv6 code I can share directly.
 
-- **xv6 kernel extensions** — MLFQ and monopoly-queue process schedulers with the backing system calls and timer-interrupt handling; POSIX-style thread create/exit/join with a locking scheme for mutual exclusion; custom system calls across the process and memory subsystems. C.
-- **LC-2K assembler and instruction-set simulator** — two-pass assembler with symbol-table construction, PC-relative branch resolution, and error detection for undefined or duplicate labels and invalid opcodes; behavioural simulator with per-instruction state tracing over an 8-register, 65,536-word memory model. C.
+- **xv6 kernel extensions.** MLFQ and monopoly-queue process schedulers with the backing system calls and timer-interrupt handling; POSIX-style thread create/exit/join with a locking scheme for mutual exclusion; custom system calls across the process and memory subsystems. C.
+- **LC-2K assembler and instruction-set simulator.** Two-pass assembler with symbol-table construction, PC-relative branch resolution, and error detection for undefined or duplicate labels and invalid opcodes; behavioural simulator with per-instruction state tracing over an 8-register, 65,536-word memory model. C.
 
 ### Tools
 
-`C` `Python` `JavaScript` `C++` `MATLAB` `Kotlin` · `Linux` `Git` `AWS` · `NumPy` `SciPy` `pandas` `Matplotlib` `Kivy` `BeautifulSoup`
+`C` `Python` `JavaScript` `MATLAB` · `Linux` `Git` `AWS` · `NumPy` `SciPy` `pandas` `Matplotlib` `Kivy` `BeautifulSoup`
 
 ### Contact
 
