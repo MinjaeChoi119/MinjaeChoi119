@@ -2,7 +2,7 @@
 
 M.S. Computer Engineering at Northwestern, Sep 2026 – Dec 2027. Before that, a double-major B.S. at Hanyang University in Automotive Engineering and Convergence Technology for Advanced Vehicles.
 
-My undergraduate thesis trained a DQN for C-V2X congestion control. The trained policy only looked at vehicle density, so I turned it into a plain density-based rule that beats the ETSI standard. Outside class I build small things end to end and then have to run them. One is a bot a fan account paid me to run. Another is an Android app I handed to strangers through a blog post.
+My undergraduate thesis trained a DQN for C-V2X congestion control. The trained policy relied mainly on vehicle density, so I turned it into a plain density-based rule. It held a 90% packet delivery target up to 200 vehicles/km, where the ETSI standard dropped below it at about 175. Outside class I build small things end to end and then have to run them. One is a bot a fan account paid me to run. Another is an Android app I handed to strangers through a blog post.
 
 **Looking for a Summer 2027 internship in the US.** F-1 student, work-authorized through pre-completion OPT, so no employer sponsorship is required.
 
@@ -10,7 +10,7 @@ My undergraduate thesis trained a DQN for C-V2X congestion control. The trained 
 
 | Repository | What it is | Stack |
 | --- | --- | --- |
-| [C-V2X DRL Resource Management](https://github.com/MinjaeChoi119/C-V2X-DRL-Resource-Management) | Undergraduate thesis. A DQN agent learns C-V2X sidelink congestion control, and then the policy it learned gets read back out as an explicit density-based rule that improves on the ETSI standard. | MATLAB |
+| [C-V2X DRL Resource Management](https://github.com/MinjaeChoi119/C-V2X-DRL-Resource-Management) | Undergraduate thesis. A DQN agent learns C-V2X sidelink congestion control, and then the policy it learned gets read back out as an explicit density-based rule. At a 90% delivery target it holds up to 200 vehicles/km, against about 175 for ETSI. | MATLAB |
 | [Xbot](https://github.com/MinjaeChoi119/Xbot) | Aggregates one song's rank across five Korean music charts and posts the movement to X. Run on AWS twice on paid commission. | Python, BeautifulSoup, AWS |
 | [OneClick](https://github.com/MinjaeChoi119/Music-Streaming-Playlist-Generator) | Android app that turns a chosen song queue into a single Melon deep link, built for the people who make and share those links rather than the people who click them. | Python, Kivy, python-for-android |
 | [In-Game Brightness Study](https://github.com/MinjaeChoi119/In-Game-Brightness-Control-User-Experience-Study) | Controlled study (n=28) of four in-game brightness controls, with the randomized web instrument and the results. | HTML, Google Apps Script |
@@ -19,14 +19,13 @@ My undergraduate thesis trained a DQN for C-V2X congestion control. The trained 
 
 ### Not public
 
-Course projects stay private under academic policy. Happy to walk through either one; the xv6 code I can share directly.
+Course projects stay private under academic policy. Happy to walk through it.
 
-- **xv6 kernel extensions.** MLFQ and monopoly-queue process schedulers with the backing system calls and timer-interrupt handling; POSIX-style thread create/exit/join with a locking scheme for mutual exclusion; custom system calls across the process and memory subsystems. C.
-- **LC-2K assembler and instruction-set simulator.** Two-pass assembler with symbol-table construction, PC-relative branch resolution, and error detection for undefined or duplicate labels and invalid opcodes; behavioural simulator with per-instruction state tracing over an 8-register, 65,536-word memory model. C.
+- **xv6 scheduler extensions.** Added a 4-level Multi-Level Feedback Queue and a Monopoly Queue scheduler to xv6, with six new system calls and priority boosting every 100 ticks. C.
 
 ### Tools
 
-`C` `Python` `JavaScript` `MATLAB` · `Linux` `Git` `AWS` · `NumPy` `SciPy` `pandas` `Matplotlib` `Kivy` `BeautifulSoup`
+`C` `Python` `MATLAB` · `Linux` `Git` `AWS` · `NumPy` `SciPy` `pandas` `Matplotlib` `Kivy` `BeautifulSoup`
 
 ### Contact
 
